@@ -1,1 +1,1 @@
-require("dogrizz")
+require("core")

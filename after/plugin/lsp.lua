@@ -17,7 +17,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {'kotlin_language_server', 'helm_ls', 'yamlls', 'docker_compose_language_service', 'bashls', 'marksman'},
+  ensure_installed = {'helm_ls', 'yamlls', 'docker_compose_language_service', 'bashls', 'marksman'},
   handlers = {
     lsp_zero.default_setup,
     lua_ls = function()
