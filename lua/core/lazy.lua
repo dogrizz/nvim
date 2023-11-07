@@ -11,17 +11,16 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup(
-  { 
+require("lazy").setup({ 
     {
-	'nvim-telescope/telescope.nvim', tag = '0.1.4',
-	dependencies = { 'nvim-lua/plenary.nvim' }
+        'nvim-telescope/telescope.nvim', tag = '0.1.4',
+        dependencies = { 'nvim-lua/plenary.nvim' }
     },
     {
-	'nvim-treesitter/nvim-treesitter',
-	build = ":TSUpdate"
+        'nvim-treesitter/nvim-treesitter',
+        build = ":TSUpdate"
     },
-    { 'rose-pine/neovim', name = 'rose-pine' },
+    { 'rebelot/kanagawa.nvim' },
     { 'nathom/filetype.nvim' },
     { 'mbbill/undotree' },
     { 'tpope/vim-fugitive' },
@@ -32,6 +31,6 @@ require("lazy").setup(
     {'L3MON4D3/LuaSnip'},
     {'williamboman/mason.nvim'},
     {'williamboman/mason-lspconfig.nvim'},
-  }
+}
 , opts)
 
