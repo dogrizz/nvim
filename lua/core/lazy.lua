@@ -29,6 +29,7 @@ require("lazy").setup({
     },
     { 'nathom/filetype.nvim' },
     { 'mbbill/undotree' },
+    { 'gpanders/editorconfig.nvim' },
     { 'tpope/vim-fugitive' },
     { 'VonHeikemen/lsp-zero.nvim',        branch = 'v3.x' },
     { 'neovim/nvim-lspconfig' },
@@ -37,5 +38,9 @@ require("lazy").setup({
     { 'L3MON4D3/LuaSnip' },
     { 'williamboman/mason.nvim' },
     { 'williamboman/mason-lspconfig.nvim' },
+    {
+        'nvim-lualine/lualine.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
 }
 , opts)
