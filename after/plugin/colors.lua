@@ -1,1 +1,4 @@
-vim.cmd[[colorscheme kanagawa]]
+require('onedark').setup {
+    style="dark"
+}
+require('onedark').load()

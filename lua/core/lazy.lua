@@ -22,7 +22,7 @@ require("lazy").setup({
         build = ":TSUpdate"
     },
     {
-        'rebelot/kanagawa.nvim',
+        'navarasu/onedark.nvim',
         lazy = false,
         priority = 1000,
         opts = {},
