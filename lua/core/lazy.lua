@@ -22,7 +22,7 @@ require("lazy").setup({
         build = ":TSUpdate"
     },
     {
-        'folke/tokyonight.nvim',
+        'rebelot/kanagawa.nvim',
         lazy = false,
         priority = 1000,
         opts = {},
