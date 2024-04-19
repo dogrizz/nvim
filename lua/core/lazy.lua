@@ -30,7 +30,6 @@ require("lazy").setup({
         priority = 1000,
         opts = {},
     },
-    { 'nathom/filetype.nvim' },
     { 'mbbill/undotree' },
     { 'gpanders/editorconfig.nvim' },
     { 'tpope/vim-fugitive' },
